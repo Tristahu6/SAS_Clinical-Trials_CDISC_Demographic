@@ -37,14 +37,6 @@
 /*                                                                          */
 /****************************************************************************/
 
-/* Begin SAS Script */
-libname mydata '/home/u63651691/EPG1V2/data';
-filename csvfile '/home/u63651691/EPG1V2/data/sample_dataset_raw.csv';
-...
-
-/* Rest of your SAS code */
-
-
 /* Assign a library reference to a directory and import the csv raw file*/
 libname mydata '/home/u63651691/EPG1V2/data';
 filename csvfile '/home/u63651691/EPG1V2/data/sample_dataset_raw.csv';
